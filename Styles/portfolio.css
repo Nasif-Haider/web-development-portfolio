@@ -10,7 +10,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px; 
+    padding: 15px 35px;
 }
 
 .text-primary {
@@ -21,7 +21,8 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -30,7 +31,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -43,4 +44,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header {
+    background: #FFF8F3;
+}
+/* Div related style */
+.banner{
+    padding: 30px 30px 30px 250px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
