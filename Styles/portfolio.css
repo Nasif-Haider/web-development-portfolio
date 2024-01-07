@@ -158,9 +158,13 @@ main {
 .skills-container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 130px;
 }
 
 /* Resume style */
+.section-title{
+    padding-bottom: 110px;
+}
 .resume-container h3 {
     /* margin-left: 13px; */
     margin-bottom: 30px;
