@@ -190,7 +190,7 @@ main {
 
 .resume-container {
     display: flex;
-
+    padding-bottom: 50px;
 }
 
 .cv-item hr {
@@ -215,6 +215,7 @@ main {
 .download-button {
     display: flex;
     justify-content: center;
+    padding-bottom: 110px;
 }
 
 svg {
