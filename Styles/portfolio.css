@@ -159,3 +159,112 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
+/* Resume style */
+.resume-container h3 {
+    /* margin-left: 13px; */
+    margin-bottom: 30px;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cv-item-title {
+    margin-bottom: 20px;
+    color: #474747;
+    font-size: 25px;
+}
+
+.cv-item-subtitle {
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cv-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-container {
+    display: flex;
+
+}
+
+.cv-item hr {
+    width: 558px;
+    height: 1px;
+    background: #f76a6a29;
+}
+
+/* .cv-item{
+    margin: 15px;
+} */
+/* button {
+    
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+} */
+.download-button {
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    background: #FFF8F3;
+    justify-content: space-between;
+    padding-left: 230px;
+}
+.contact-title{
+    font-size: 35px;
+}
+.contact-description{
+    width: 562px;
+    font-size: 16px;
+}
+.form{
+    padding-right: 230px;
+}
+.icon svg{
+    padding-right: 24px;
+}
+.form-item {
+    margin-bottom: 24px;
+    display: block;
+    width: 461px;
+    height: 64px;
+    border: 0px #FFF;
+    border-radius: 5px;
+    background: #FFF;
+    color: #757575;
+    font-size: 16px;
+}
+
+.msg {
+    margin-bottom: 24px;
+    padding-left: 15px;
+    padding-top: 18px;
+    border: 0px #FFF;
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
